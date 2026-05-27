@@ -1,0 +1,18 @@
+name: Release Node.js Package
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  packages: write
+
+jobs:
+  release:
+    name: Release
+    uses: use-nyte/.github/.github/workflows/release-node-pkg.yml@main
+    secrets: inherit

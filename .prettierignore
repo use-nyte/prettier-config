@@ -1,0 +1,8 @@
+dist
+node_modules
+.gitignore
+.prettierignore
+CHANGELOG.md
+LICENSE
+pnpm-lock.yaml
+README.md
