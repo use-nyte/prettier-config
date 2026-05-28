@@ -2,6 +2,7 @@
 
 import { execSync } from "child_process";
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 async function main() {
   const prettierDefaultCommand = "pnpm prettier . --write --config ./src/prettier.config.mjs";
   const prettierPluginOrganizeClassMembersCommand =
@@ -10,7 +11,7 @@ async function main() {
   try {
     execSync(prettierDefaultCommand, { stdio: "inherit" });
     execSync(prettierPluginOrganizeClassMembersCommand, { stdio: "inherit" });
-  } catch (error) {
+  } catch {
     process.exit(1);
   }
 }
