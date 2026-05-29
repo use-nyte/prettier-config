@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 
 import { execSync } from "child_process";
+import { fileURLToPath } from "url";
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 async function main() {
-  const prettierDefaultCommand = "pnpm prettier . --write --config ./src/prettier.config.mjs";
-  const prettierPluginOrganizeClassMembersCommand =
-    "pnpm prettier . --write --config ./src/prettier.config.mjs --plugin=prettier-plugin-organize-class-members";
+  const configPath = fileURLToPath(new URL("./prettier.config.mjs", import.meta.url));
+
+  const prettierDefaultCommand = `pnpm prettier . --write --config ${JSON.stringify(configPath)}`;
+  const prettierPluginOrganizeClassMembersCommand = `pnpm prettier . --write --config ${JSON.stringify(configPath)} --plugin=prettier-plugin-organize-class-members`;
 
   try {
     execSync(prettierDefaultCommand, { stdio: "inherit" });
