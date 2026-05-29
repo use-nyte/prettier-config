@@ -1,3 +1,7 @@
+import "prettier-plugin-organize-class-members";
+import "prettier-plugin-organize-imports";
+import "prettier-plugin-tailwindcss";
+
 /**
  * @see https://prettier.io/docs/configuration
  * @type {import("prettier").Config}
