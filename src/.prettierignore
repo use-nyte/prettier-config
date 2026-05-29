@@ -1,8 +1,10 @@
-dist
+.git
+.husky
 node_modules
 .gitignore
-.prettierignore
+.npmrc
 CHANGELOG.md
 LICENSE
 pnpm-lock.yaml
+pnpm-workspace.yaml
 README.md
