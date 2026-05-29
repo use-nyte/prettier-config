@@ -1,6 +1,15 @@
-import "prettier-plugin-organize-class-members";
-import "prettier-plugin-organize-imports";
-import "prettier-plugin-tailwindcss";
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+const loadPlugin = async (specifier) => {
+  const plugin = await import(specifier);
+
+  return plugin.default ?? plugin;
+};
+
+const plugins = await Promise.all([
+  loadPlugin("prettier-plugin-organize-class-members"),
+  loadPlugin("prettier-plugin-organize-imports"),
+  loadPlugin("prettier-plugin-tailwindcss")
+]);
 
 /**
  * @see https://prettier.io/docs/configuration
@@ -24,11 +33,7 @@ export default {
   endOfLine: "lf",
   embeddedLanguageFormatting: "auto",
   singleAttributePerLine: false,
-  plugins: [
-    "prettier-plugin-organize-class-members",
-    "prettier-plugin-organize-imports",
-    "prettier-plugin-tailwindcss"
-  ],
+  plugins: plugins,
   classSectionOrder: ["properties", "staticProperties", "constructor", "methods", "staticMethods"],
   classAccessibilityOrder: ["public", "protected", "private"],
   classGroupOrder: ["everythingElse", "gettersAndSetters"],
