@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/use-nyte/prettier-config/compare/v1.3.0...v1.3.1) (2026-05-29)
+
+
+### Bug Fixes
+
+* update ignored paths ([846769a](https://github.com/use-nyte/prettier-config/commit/846769a68affe1095b26891a344b2dad9bd47ac0))
+
 ## [1.3.0](https://github.com/use-nyte/prettier-config/compare/v1.2.2...v1.3.0) (2026-05-29)
 
 
