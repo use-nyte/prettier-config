@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/use-nyte/prettier-config/compare/v1.2.2...v1.3.0) (2026-05-29)
+
+
+### Features
+
+* use prettier api over child_processes ([751eae1](https://github.com/use-nyte/prettier-config/commit/751eae1319da7205813df987c9428983fb860825))
+
+
+### Bug Fixes
+
+* import plugins ([f75e122](https://github.com/use-nyte/prettier-config/commit/f75e1227e069aa3630e33e8886ff913b70f5bbd1))
+
 ## [1.2.2](https://github.com/use-nyte/prettier-config/compare/v1.2.1...v1.2.2) (2026-05-29)
 
 
