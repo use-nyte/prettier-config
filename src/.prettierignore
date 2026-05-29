@@ -1,5 +1,6 @@
 .git
 .husky
+dist
 node_modules
 .gitignore
 .npmrc
