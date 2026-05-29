@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/use-nyte/prettier-config/compare/v1.1.0...v1.2.0) (2026-05-29)
+
+
+### Features
+
+* added Husky git hooks ([#8](https://github.com/use-nyte/prettier-config/issues/8)) ([d0d51dd](https://github.com/use-nyte/prettier-config/commit/d0d51dd6c4f9e5beb04d468546913c6b196d1e6f))
+
+
+### Bug Fixes
+
+* added GHP registry ([#7](https://github.com/use-nyte/prettier-config/issues/7)) ([e8df020](https://github.com/use-nyte/prettier-config/commit/e8df0201d8ca40fcb055fa5fa45424cd81096532))
+* workflow should be able to read ghp ([c3b7c5f](https://github.com/use-nyte/prettier-config/commit/c3b7c5f8e39ade714dc42c829ce853b60afaa082))
+
 ## [1.1.0](https://github.com/use-nyte/prettier-config/compare/v1.0.0...v1.1.0) (2026-05-29)
 
 
