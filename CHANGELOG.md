@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/use-nyte/prettier-config/compare/v1.3.1...v1.3.2) (2026-05-29)
+
+
+### Bug Fixes
+
+* ignore dist directory ([a91ad67](https://github.com/use-nyte/prettier-config/commit/a91ad677b96c656f7e327b4d8966c5cb9ee13ea5))
+
 ## [1.3.1](https://github.com/use-nyte/prettier-config/compare/v1.3.0...v1.3.1) (2026-05-29)
 
 
