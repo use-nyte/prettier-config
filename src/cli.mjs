@@ -43,6 +43,7 @@ async function main() {
   if (formattedCount > 0) {
     console.log("--------------------");
     console.log(`Formatted ${formattedCount} file${formattedCount === 1 ? "" : "s"}.`);
+    process.exit(0);
   } else {
     console.log("No formatting errors found.");
     process.exit(0);
