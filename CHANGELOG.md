@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/use-nyte/prettier-config/compare/v1.2.1...v1.2.2) (2026-05-29)
+
+
+### Bug Fixes
+
+* ensure the plugin is loaded from this repo's node_modules ([be34bec](https://github.com/use-nyte/prettier-config/commit/be34bec12e43bc7ebded806a13e0741c221bba5f))
+
 ## [1.2.1](https://github.com/use-nyte/prettier-config/compare/v1.2.0...v1.2.1) (2026-05-29)
 
 
