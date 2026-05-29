@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/use-nyte/prettier-config/compare/v1.3.2...v1.3.3) (2026-05-29)
+
+
+### Bug Fixes
+
+* ignore coverage directory ([c07026a](https://github.com/use-nyte/prettier-config/commit/c07026a651f8ec1081fd0b09489415f06e59bb0f))
+
 ## [1.3.2](https://github.com/use-nyte/prettier-config/compare/v1.3.1...v1.3.2) (2026-05-29)
 
 
