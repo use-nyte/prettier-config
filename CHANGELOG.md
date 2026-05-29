@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/use-nyte/prettier-config/compare/v1.2.0...v1.2.1) (2026-05-29)
+
+
+### Bug Fixes
+
+* ensure the included config file is used ([da6e962](https://github.com/use-nyte/prettier-config/commit/da6e962c5ae8e4d633b5f9f9f89051995e6dae69))
+
 ## [1.2.0](https://github.com/use-nyte/prettier-config/compare/v1.1.0...v1.2.0) (2026-05-29)
 
 
