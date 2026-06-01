@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/use-nyte/prettier-config/compare/v1.3.3...v1.3.4) (2026-06-01)
+
+
+### Bug Fixes
+
+* ignore .react-router directory ([312bb02](https://github.com/use-nyte/prettier-config/commit/312bb02d789cba348a2bba1e32429c1a8c669132))
+
 ## [1.3.3](https://github.com/use-nyte/prettier-config/compare/v1.3.2...v1.3.3) (2026-05-29)
 
 
