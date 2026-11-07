@@ -21,6 +21,7 @@ async function main() {
     const fileInfo = await prettier.getFileInfo(filePath, {
       ignorePath: ignorePath,
       plugins: config.plugins,
+      resolveConfig: false,
       withNodeModules: false
     });
 
