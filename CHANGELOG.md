@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/use-nyte/prettier-config/compare/v1.3.4...v2.0.0) (2026-11-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **prettier:** Prettier now checks formatting by default. Pass --write to apply formatting changes.
+
+### Features
+
+* **prettier:** make formatting read-only by default ([#17](https://github.com/use-nyte/prettier-config/issues/17)) ([4c34c01](https://github.com/use-nyte/prettier-config/commit/4c34c01101e10242ddfbf3737eb968ed0c031c0f))
+
 ## [1.3.4](https://github.com/use-nyte/prettier-config/compare/v1.3.3...v1.3.4) (2026-06-01)
 
 
