@@ -9,17 +9,19 @@ import config from "./prettier.config.mjs";
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 async function main() {
   const cwd = process.cwd();
+  const shouldWrite = process.argv.includes("--write");
   const ignorePath = new URL("./.prettierignore", import.meta.url).pathname;
 
   const ig = ignore().add(await readFile(ignorePath, "utf8").catch(() => ""));
 
   const files = await collectFiles(cwd, ig);
-  let formattedCount = 0;
+  let changedCount = 0;
 
   for (const filePath of files) {
     const fileInfo = await prettier.getFileInfo(filePath, {
       ignorePath: ignorePath,
       plugins: config.plugins,
+      resolveConfig: false,
       withNodeModules: false
     });
 
@@ -34,19 +36,30 @@ async function main() {
     });
 
     if (formatted !== source) {
-      await writeFile(filePath, formatted);
-      console.log(`Formatted ${filePath.replace(cwd + path.sep, "")}`);
-      formattedCount += 1;
+      const relativePath = path.relative(cwd, filePath);
+
+      if (shouldWrite) {
+        await writeFile(filePath, formatted);
+        console.log(`Formatted ${relativePath}`);
+      } else {
+        console.log(`Needs formatting: ${relativePath}`);
+      }
+
+      changedCount += 1;
     }
   }
 
-  if (formattedCount > 0) {
+  if (changedCount > 0) {
     console.log("--------------------");
-    console.log(`Formatted ${formattedCount} file${formattedCount === 1 ? "" : "s"}.`);
-    process.exit(0);
+
+    if (shouldWrite) {
+      console.log(`Formatted ${changedCount} file${changedCount === 1 ? "" : "s"}.`);
+    } else {
+      console.error(`${changedCount} file${changedCount === 1 ? "" : "s"} need formatting. Run with --write to fix.`);
+      process.exit(1);
+    }
   } else {
-    console.log("No formatting errors found.");
-    process.exit(0);
+    console.log("No formatting issues found.");
   }
 }
 
