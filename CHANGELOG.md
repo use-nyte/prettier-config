@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/use-nyte/prettier-config/compare/v2.0.0...v2.0.1) (2026-11-24)
+
+
+### Bug Fixes
+
+* **config:** ignore .generated directory ([c7c02a8](https://github.com/use-nyte/prettier-config/commit/c7c02a8cf4c9b1438a75f3a23edee3d47235e9a3))
+
 ## [2.0.0](https://github.com/use-nyte/prettier-config/compare/v1.3.4...v2.0.0) (2026-11-07)
 
 
