@@ -1,7 +1,9 @@
+.docusaurus
 .generated
 .git
 .husky
 .react-router
+build
 coverage
 dist
 node_modules
