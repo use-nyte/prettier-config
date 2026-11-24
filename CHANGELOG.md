@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/use-nyte/prettier-config/compare/v2.0.1...v2.0.2) (2026-11-24)
+
+
+### Bug Fixes
+
+* **config:** ignore .docusaurus and build directories ([8f869cb](https://github.com/use-nyte/prettier-config/commit/8f869cbd476f415ede6c9ee1b2d3f4dfcd4f5719))
+
 ## [2.0.1](https://github.com/use-nyte/prettier-config/compare/v2.0.0...v2.0.1) (2026-11-24)
 
 
