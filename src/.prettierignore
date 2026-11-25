@@ -3,6 +3,7 @@
 .git
 .husky
 .react-router
+.release-please-manifest.json
 build
 coverage
 dist
