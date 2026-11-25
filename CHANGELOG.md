@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/use-nyte/prettier-config/compare/v2.0.3...v2.0.4) (2026-11-25)
+
+
+### Bug Fixes
+
+* **config:** ignore .tanstack instead of .react-router ([569c8ea](https://github.com/use-nyte/prettier-config/commit/569c8eaa361d6f97fd3ccb3f7cf89b7d0123f180))
+
 ## [2.0.3](https://github.com/use-nyte/prettier-config/compare/v2.0.2...v2.0.3) (2026-11-25)
 
 
