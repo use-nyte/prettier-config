@@ -2,7 +2,7 @@
 .generated
 .git
 .husky
-.react-router
+.tanstack
 .release-please-manifest.json
 build
 coverage
