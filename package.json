@@ -9,6 +9,7 @@
     "format": "src/cli.mjs"
   },
   "scripts": {
+    "lint": "pnpm exec lint",
     "format": "node src/cli.mjs",
     "prepare": "husky"
   },
