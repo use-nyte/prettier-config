@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.3](https://github.com/use-nyte/prettier-config/compare/v2.0.2...v2.0.3) (2026-11-25)
+
+
+### Bug Fixes
+
+* **ci:** update release PR validation ([c1449e8](https://github.com/use-nyte/prettier-config/commit/c1449e81bec47a69c35d95b49a1e93b2aed58e82))
+* **format:** ignore generated release-please manifests ([07abb0d](https://github.com/use-nyte/prettier-config/commit/07abb0d0c000680093323aed9e8a81e12b93d0e2))
+
 ## [2.0.2](https://github.com/use-nyte/prettier-config/compare/v2.0.1...v2.0.2) (2026-11-24)
 
 
