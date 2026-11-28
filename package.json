@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "ignore": "7.0.17",
-    "prettier": "3.8.3",
+    "prettier": "3.10.1",
     "prettier-plugin-organize-class-members": "1.0.0-beta.6",
     "prettier-plugin-organize-imports": "4.3.0",
     "prettier-plugin-tailwindcss": "0.8.0"
