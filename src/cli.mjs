@@ -6,7 +6,6 @@ import prettier from "prettier";
 import ignore from "ignore";
 import config from "./prettier.config.mjs";
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 async function main() {
   const cwd = process.cwd();
   const shouldWrite = process.argv.includes("--write");
@@ -63,7 +62,6 @@ async function main() {
   }
 }
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 async function collectFiles(root, ig) {
   const files = [];
   const stack = [root];
