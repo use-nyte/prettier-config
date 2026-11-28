@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.5](https://github.com/use-nyte/prettier-config/compare/v2.0.4...v2.0.5) (2026-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.10.1 ([#37](https://github.com/use-nyte/prettier-config/issues/37)) ([4246dd3](https://github.com/use-nyte/prettier-config/commit/4246dd3c6e5526bfaaae12bbc8801d9d54a13031))
+* **deps:** update dependency prettier-plugin-tailwindcss to v0.8.1 ([#36](https://github.com/use-nyte/prettier-config/issues/36)) ([8029460](https://github.com/use-nyte/prettier-config/commit/8029460eb2ccb948f0dc6c40f42a2a3fd0950a39))
+
 ## [2.0.4](https://github.com/use-nyte/prettier-config/compare/v2.0.3...v2.0.4) (2026-11-25)
 
 
